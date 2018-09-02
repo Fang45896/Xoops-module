@@ -14,19 +14,19 @@ $modversion['image']       = 'images/logo.png';
 $modversion['dirname']     = basename(dirname(__FILE__));
 
 //---模組狀態資訊---//
-$modversion['release_date']        = '2015/03/21';
-$modversion['module_website_url']  = 'http://模組官網網址';
-$modversion['module_website_name'] = '模組官網名稱';
+$modversion['release_date']        = '2018/09/02';
+$modversion['module_website_url']  = 'http://www.mis.cnu.edu.tw/';
+$modversion['module_website_name'] = '嘉南藥理大學資訊管理系';
 $modversion['module_status']       = 'release';
-$modversion['author_website_url']  = 'http://作者網站網址';
-$modversion['author_website_name'] = '作者網站名稱';
-$modversion['min_php']             = 5.2;
+$modversion['author_website_url']  = 'http://www.mis.cnu.edu.tw/';
+$modversion['author_website_name'] = '嘉南藥理大學資訊管理系';
+$modversion['min_php']             = 7.0;
 $modversion['min_xoops']           = '2.5';
 $modversion['min_tadtools']        = '1.20';
 
 //---paypal資訊---//
 $modversion['paypal']                  = array();
-$modversion['paypal']['business']      = '作者@的Email';
+$modversion['paypal']['business']      = 'sa9212900@gmail.com';
 $modversion['paypal']['item_name']     = 'Donation : ' . '贊助對象名稱';
 $modversion['paypal']['amount']        = 0;
 $modversion['paypal']['currency_code'] = 'USD';
@@ -37,7 +37,8 @@ $modversion['system_menu'] = 1;
 //---模組資料表架構---//
 $modversion['sqlfile']['mysql'] = 'sql/mysql.sql';
 $modversion['tables'][1] = 'prodmanage_files_center';
-
+$modversion['tables'][2] = 'prodmanage_prod';
+$modversion['tables'][3] = 'prodmanage_kind';
 //---後台管理介面設定---//
 $modversion['hasAdmin']   = 1;
 $modversion['adminindex'] = 'admin/index.php';
