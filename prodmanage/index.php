@@ -1,7 +1,7 @@
 <?php
 /*-----------引入檔案區--------------*/
 include_once "header.php";
-$xoopsOption['template_main'] = "模組目錄_index.tpl";
+$xoopsOption['template_main'] = "prodmanage_index.tpl";
 include_once XOOPS_ROOT_PATH . "/header.php";
 
 
@@ -35,7 +35,7 @@ if ($ver >= 259) {
   $xoTheme->addScript('modules/tadtools/jquery/jquery-migrate-1.4.1.min.js');
 }
 
-$xoTheme->addStylesheet(XOOPS_URL . "/modules/模組目錄/css/module.css");
+$xoTheme->addStylesheet(XOOPS_URL . "/modules/prodmanage/css/module.css");
 $xoopsTpl->assign( "moduleMenu" , $moduleMenu) ;
 $xoopsTpl->assign( "isAdmin" , $isAdmin) ;//interface_menu.php
 $xoopsTpl->assign( "op" , $op) ;

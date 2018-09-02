@@ -1,6 +1,6 @@
 <?php
 include_once XOOPS_ROOT_PATH . "/modules/ugm_tools2/InstallFunction.php";
-function xoops_module_install_模組目錄(&$module) {
+function xoops_module_install_prodmanage(&$module) {
   #安裝
   go_install();
   #更新
@@ -12,7 +12,7 @@ function xoops_module_install_模組目錄(&$module) {
 function go_install() {
 	global $xoopsDB;
 	#建立資料夾	
-  mk_dir(XOOPS_ROOT_PATH . "/uploads/模組目錄");
+  mk_dir(XOOPS_ROOT_PATH . "/uploads/prodmanage");
 	return true;
 }
 

@@ -1,6 +1,6 @@
 <?php
 /*-----------引入檔案區--------------*/
-$xoopsOption['template_main'] = "模組目錄_adm_main.tpl";
+$xoopsOption['template_main'] = "prodmanage_adm_main.tpl";
 include_once "header.php";
 include_once "../function.php";
 
@@ -36,9 +36,9 @@ switch ($op) {
 
 /*-----------秀出結果區--------------*/
 #CSS
-$xoTheme->addStylesheet(XOOPS_URL . "/modules/模組目錄/css/xoops_adm.css");
-$xoTheme->addStylesheet(XOOPS_URL . "/modules/模組目錄/css/forms.css");
-$xoTheme->addStylesheet(XOOPS_URL . "/modules/模組目錄/css/module.css");
+$xoTheme->addStylesheet(XOOPS_URL . "/modules/prodmanage/css/xoops_adm.css");
+$xoTheme->addStylesheet(XOOPS_URL . "/modules/prodmanage/css/forms.css");
+$xoTheme->addStylesheet(XOOPS_URL . "/modules/prodmanage/css/module.css");
 $xoopsTpl->assign("op", $op);
 
 #相容舊版jquery

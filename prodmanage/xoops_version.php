@@ -2,13 +2,13 @@
 $modversion = array();
 
 //---模組基本資訊---//
-$modversion['name']        = _MI_XXX_NAME;
+$modversion['name']        = _MI_PRODMANAGE_NAME;
 $modversion['version']     = '1.00';
-$modversion['description'] = _MI_XXX_DESC;
-$modversion['author']      = _MI_XXX_AUTHOR;
-$modversion['credits']     = _MI_XXX_CREDITS;
+$modversion['description'] = _MI_PRODMANAGE_DESC;
+$modversion['author']      = _MI_PRODMANAGE_AUTHOR;
+$modversion['credits']     = _MI_PRODMANAGE_CREDITS;
 $modversion['help']        = 'page=help';
-$modversion['license']     = _MI_XXX_LICENSE;
+$modversion['license']     = _MI_PRODMANAGE_LICENSE;
 $modversion['license_url'] = 'www.gnu.org/licenses/gpl-2.0.html/';
 $modversion['image']       = 'images/logo.png';
 $modversion['dirname']     = basename(dirname(__FILE__));
@@ -36,7 +36,7 @@ $modversion['system_menu'] = 1;
 
 //---模組資料表架構---//
 $modversion['sqlfile']['mysql'] = 'sql/mysql.sql';
-$modversion['tables'][1] = '模組目錄_files_center';
+$modversion['tables'][1] = 'prodmanage_files_center';
 
 //---後台管理介面設定---//
 $modversion['hasAdmin']   = 1;
@@ -56,11 +56,11 @@ $modversion['onUninstall'] = "include/onUninstall.php";
 //---樣板設定---//
 $modversion['templates']                    = array();
 $i                                          = 1;
-$modversion['templates'][$i]['file']        = '模組目錄_adm_main.tpl';
+$modversion['templates'][$i]['file']        = 'prodmanage_adm_main.tpl';
 $modversion['templates'][$i]['description'] = '後台管理頁樣板';
 
 $i++;
-$modversion['templates'][$i]['file']        = '模組目錄_index.tpl';
+$modversion['templates'][$i]['file']        = 'prodmanage_index.tpl';
 $modversion['templates'][$i]['description'] = '模組首頁樣板';
 
 //---偏好設定---//

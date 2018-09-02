@@ -1,5 +1,5 @@
 -- 1
-CREATE TABLE `模組目錄_files_center` (
+CREATE TABLE `prodmanage_files_center` (
   `files_sn` smallint(5) unsigned NOT NULL AUTO_INCREMENT COMMENT '檔案流水號',
   `col_name` varchar(255) NOT NULL default '' COMMENT '欄位名稱',
   `col_sn` smallint(5) unsigned NOT NULL default 0 COMMENT '欄位編號',

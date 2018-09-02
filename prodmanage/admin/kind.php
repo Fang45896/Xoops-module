@@ -1,7 +1,7 @@
 <?php
 /*-----------引入檔案區--------------*/
 $isAdmin = true;
-$xoopsOption['template_main'] = '模組目錄_adm_kind.tpl';
+$xoopsOption['template_main'] = 'prodmanage_adm_kind.tpl';
 require_once "header.php";
 require_once "../function.php";
 #引入類別物件---------------------------------

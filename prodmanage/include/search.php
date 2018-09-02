@@ -1,7 +1,7 @@
 <?php
 //搜尋程式
 
-function 模組目錄_search($queryarray, $andor, $limit, $offset, $userid){
+function prodmanage_search($queryarray, $andor, $limit, $offset, $userid){
 	global $xoopsDB;
 	if(get_magic_quotes_gpc()){
 		foreach($queryarray as $k=>$v){
