@@ -1,0 +1,57 @@
+/*區塊*/
+.block{  
+  position:relative;
+}
+/*區塊標題*/
+.blockTitle{
+}
+/*區塊內容*/
+.blockContent{
+}
+/*左區塊 */
+.leftBlock{
+}
+/* 右區塊 */
+.rightBlock{
+}
+/*上中區塊 */
+.topCenter{
+}
+/*上左區塊 */
+.topLeft{
+}
+/*上右區塊 */
+.topRight{
+}
+/* 下中區塊 */
+.bottomCenter{
+}
+/* 下中左區塊 */
+.bottomLeft{
+}
+/* 下中右區塊 */
+.bottomRight{
+}
+
+/* 頁尾中區塊 */
+.footerCenter{
+}
+/* 頁尾左區塊 */
+.footerLeft{
+}
+/* 頁尾右區塊 */
+.footerRight{
+}
+a.block_admin {
+  position:absolute;
+  display: block;
+  top:0px;
+  right:0px;
+  z-index:50;
+  width: 16px;
+  height: 16px;
+  background-image: url(../img/block_admin.png);
+}
+a.block_admin:hover {
+  background-image: url(../img/block_admin_hover.png);
+}
